@@ -9,17 +9,18 @@
 ### Abstract
 Distributed systems often experience inefficient resource usage when workloads are assigned using static allocation strategies that ignore runtime node activity. As cluster size increases, these approaches lead to declining node utilization and idle infrastructure capacity. This study examines utilization behavior across clusters of 3 to 11 nodes and highlights the limitations of baseline allocation models. An adaptive utilization aware mechanism is introduced to dynamically redistribute workloads, significantly improving node utilization and scalability in distributed environments. 
 
-### Major Research Contributions
-- **Lightweight Runtime Conflict Detection Mechanism:**  
-Introduced a runtime method that detects transactional conflicts early during execution using compact metadata instead of relying on heavy locking or late validation.
+### Principal Technical Contributions
+- **Adaptive Utilization Aware Scheduling Mechanism:**  
+Introduced a dynamic workload distribution strategy that continuously monitors node activity and reallocates tasks to maintain balanced resource utilization across distributed clusters.
 
-- **Processor Efficient Transaction Execution:**  
-Designed a conflict management approach that reduces blocking synchronization and repeated transaction retries, leading to lower processor utilization during high concurrency workloads.
-- **Distributed Experimental Evaluation:** 
-Implemented a transaction processing model using Go based concurrent workers to simulate distributed workloads and evaluate processor utilization across cluster sizes.
+- **Runtime Driven Workload Redistribution:**  
+Developed a scheduling approach that adjusts task placement based on real time utilization feedback, preventing node overload while ensuring underutilized nodes receive additional processing tasks.
 
-- **Scalability Analysis Across Cluster Sizes:**  
-Conducted experiments on clusters with 3, 5, 7, 9, and 11 nodes to analyze how CPU utilization changes as transaction processing systems scale.
+- **Distributed System Prototype Implementation:** 
+Implemented an experimental distributed environment using Go based processes to simulate workload execution and observe node utilization behavior across multiple cluster configurations.
+
+- **Scalability Evaluation with Increasing Nodes:**  
+Conducted experiments on clusters with 3, 5, 7, 9, and 11 nodes to analyze how adaptive scheduling influences node utilization and overall system efficiency as cluster size grows.
 
 ### Practical Significance and Impact
 - **Reduced Processor Utilization:**
