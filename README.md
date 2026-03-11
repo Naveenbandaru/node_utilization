@@ -2,9 +2,9 @@
 **Adaptive Node Utilization Optimization in Distributed Systems**
 ### Paper Information
 - **Author(s):** Naveen Kumar Bandaru
-- **Published In:** International Journal of Intelligent Systems and Applications in Engineering (IJISAE)
-- **Publication Date:** June, 2023
-- **ISSN:**  2147-6799
+- **Published In:** Journal of Advances in Developmental Research (IJAIDR)
+- **Publication Date:** July, 2025
+- **E-ISSN:**  0976-4844
 
 ### Abstract
 Distributed systems often experience inefficient resource usage when workloads are assigned using static allocation strategies that ignore runtime node activity. As cluster size increases, these approaches lead to declining node utilization and idle infrastructure capacity. This study examines utilization behavior across clusters of 3 to 11 nodes and highlights the limitations of baseline allocation models. An adaptive utilization aware mechanism is introduced to dynamically redistribute workloads, significantly improving node utilization and scalability in distributed environments. 
@@ -45,14 +45,14 @@ The framework supports efficient transaction processing in environments such as 
   | 11    |  79                 | 41                             | 48.10          |
 
 ### Citation
-Lightweight Runtime Conflict Detection for CPU Efficient Transaction Processing
+Adaptive Node Utilization Optimization in Distributed Systems
 * Naveen Kumar Bandaru
-* International Journal of Intelligent Systems and Applications in Engineering (IJISAE) 
-* ISSN 2147-6799
+* Journal of Advances in Developmental Research (IJAIDR) 
+* E-ISSN 0976-4844
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
-https://www.ijisae.org/index.php/IJISAE \
+https://www.ijaidr.com/ \
 **Author Contact** \
 **LinkedIn**: linkedin.com/in/naveen-bandaru | **Email**: naveen.bandaru@gmail.com
 
