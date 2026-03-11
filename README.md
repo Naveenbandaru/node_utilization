@@ -1,9 +1,5 @@
 # node_utilization
-Adaptive Node Utilization Optimization in Distributed Systems
-
-# cpu_usage
-**Lightweight Runtime Conflict Detection for CPU Efficient Transaction Processing**
-
+**Adaptive Node Utilization Optimization in Distributed Systems**
 ### Paper Information
 - **Author(s):** Naveen Kumar Bandaru
 - **Published In:** International Journal of Intelligent Systems and Applications in Engineering (IJISAE)
@@ -11,7 +7,7 @@ Adaptive Node Utilization Optimization in Distributed Systems
 - **ISSN:**  2147-6799
 
 ### Abstract
-High concurrency transaction processing systems often experience performance degradation due to conflicts among simultaneous read and write operations. Conventional mechanisms such as Two Phase Locking and Optimistic Concurrency Control introduce blocking, repeated retries, and significant processor overhead. This work examines the impact of these mechanisms on CPU utilization and scalability in distributed environments. A lightweight runtime conflict detection approach is introduced to identify conflicts earlier during execution and reduce unnecessary computation. Experimental evaluation across multiple cluster sizes demonstrates improved processor efficiency and better scalability in transaction processing systems.
+Distributed systems often experience inefficient resource usage when workloads are assigned using static allocation strategies that ignore runtime node activity. As cluster size increases, these approaches lead to declining node utilization and idle infrastructure capacity. This study examines utilization behavior across clusters of 3 to 11 nodes and highlights the limitations of baseline allocation models. An adaptive utilization aware mechanism is introduced to dynamically redistribute workloads, significantly improving node utilization and scalability in distributed environments. 
 
 ### Major Research Contributions
 - **Lightweight Runtime Conflict Detection Mechanism:**  
