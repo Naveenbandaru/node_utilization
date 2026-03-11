@@ -37,13 +37,13 @@ The proposed approach is suitable for cloud infrastructures, distributed analyti
 
 ### Experimental Results (Summary)
 
-  | Nodes | Lock Based 2PL CPU %| Lightweight Runtime Detection %| Improvment (%) |
-  |-------|---------------------| -------------------------------| ---------------|
-  | 3     |  88                 | 55                             | 37.50          |
-  | 5     |  84                 | 49                             | 41.67          |
-  | 7     |  82                 | 46                             | 43.90          |
-  | 9     |  80                 | 43                             | 46.25          |
-  | 11    |  79                 | 41                             | 48.10          |
+  | Nodes | Baseline model utilization (%)| Adaptive Model Utiliation (%) | Improvement (%) |
+  |-------|-------------------------------| ------------------------------| ----------------|
+  | 3     |  52                           | 78                            | 50.00           |
+  | 5     |  48                           | 82                            | 70.83           |
+  | 7     |  44                           | 85                            | 93.18           |
+  | 9     |  41                           | 87                            | 112.20          |
+  | 11    |  39                           | 89                            | 128.21          |
 
 ### Citation
 Adaptive Node Utilization Optimization in Distributed Systems
