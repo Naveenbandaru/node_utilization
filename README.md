@@ -22,18 +22,18 @@ Implemented an experimental distributed environment using Go based processes to 
 - **Scalability Evaluation with Increasing Nodes:**  
 Conducted experiments on clusters with 3, 5, 7, 9, and 11 nodes to analyze how adaptive scheduling influences node utilization and overall system efficiency as cluster size grows.
 
-### Practical Significance and Impact
-- **Reduced Processor Utilization:**
-The lightweight runtime approach significantly lowers CPU usage compared with conventional locking and optimistic concurrency control mechanisms.
+### System Importance and Practical Benefits
+- **Higher Node Utilization Efficiency:**
+The adaptive model significantly improves resource usage by ensuring that additional nodes actively participate in workload processing rather than remaining partially idle.
 
-- **Improved Transaction Processing Efficiency:**  
-Early conflict detection minimizes wasted computation caused by blocking synchronization and repeated transaction retries.
+- **Balanced Workload Distribution:**  
+Continuous monitoring and dynamic task redistribution reduce workload imbalance and prevent performance bottlenecks caused by overloaded nodes.
 
-- **Better Scalability for Distributed Systems:**  
-Processor consumption decreases steadily as cluster size increases, demonstrating efficient resource utilization and improved scalability.
+- **Improved Scalability in Distributed Environments:**  
+Node utilization increases as cluster size expands, demonstrating that adaptive workload management effectively supports scalable distributed system deployments.
 
-- **Suitability for High Concurrency Platforms:**  
-The framework supports efficient transaction processing in environments such as distributed databases, cloud systems, and microservice based platforms.
+- **Applicability to Modern Distributed Platforms:**  
+The proposed approach is suitable for cloud infrastructures, distributed analytics systems, microservice architectures, and large scale computing platforms requiring efficient resource utilization.
 
 ### Experimental Results (Summary)
 
